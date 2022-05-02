@@ -1,0 +1,37 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "movieTitle": "Interstellar",
+      "genre": "Space Movie",
+      "directorName": "Christopher Nolan",
+      "directorBio": "Christopher Edward Nolan is a British-American film director, producer, and screenwriter. His directorial efforts have grossed more than US$5.1 billion worldwide, garnered 34 Oscar nominations and ten wins. Born and raised in London, Nolan developed an interest in filmmaking from a young age",
+      "description": "Interstellar is a 2014 American-British epic science fiction flm directed and produced by Christopher Nolan. It stars Matthew McConaughey, Anne Hathaway, Jessica Chastain, Bill Irwin, Ellen Burstyn, John Lithgow, Michael , and Matt Damon. Set in a dystopian future where humanity is  to survive, the flm follows a group of astronauts who travel  a wormhole near Saturn in search of a new home for mankind.",
+      "imageURL": "interstellar",
+      "directorImageURL": "christopher-nolan",
+      "isFavorite": true
+    },
+    {
+      "id": 2,
+      "movieTitle": "Coco",
+      "genre": "Animated",
+      "directorName": "Lee Unkrich",
+      "directorBio": "Lee Edward Unkrich is an American film director, film editor, screenwriter, and animator. He was a longtime member of the creative team at Pixar, where he started in 1994 as a film editor. He later began directing, first as co-director of Toy Story 2. After co-directing Toy Story 2, Monsters, Inc.",
+      "description": "Coco is a 2017 American 3D computer-animated comedy flm directed by Lee Unkrich and co-produced by John Lasseter. It is the first of Unkrich's three animated feature films, and the first to be nominated for an Academy Award for Best Animated Feature. The flm stars Daniel Dae Kim, Jason Statham, and Mads Mikkelsen, and is based on the 1996 novel by Candice Bergen.",
+      "imageURL": "coco",
+      "directorImageURL": "LeeUnkrich",
+      "isFavorite": true
+    },
+    {
+      "id": 3,
+      "movieTitle": "Magadhira",
+      "genre": "Telegu",
+      "directorName": "S. S. Rajamouli",
+      "directorBio": "Koduri Srisaila Sri Rajamouli, professionally known as S. S. Rajamouli, is an Indian film director and screenwriter who works predominantly in Telugu cinema.",
+      "description": "Magadheera is a 2009 Indian Telugu-language fantasy action film directed by S. S. Rajamouli who co-wrote the film with K. V. Vijayendra Prasad. It was produced by Allu Aravind of Geetha Arts. The film stars Ram Charan, Srihari, Kajal Aggarwal and Dev Gill.",
+      "imageURL": "magadhira",
+      "directorImageURL": "rajamouli",
+      "isFavorite": true
+    }
+  ]
+}

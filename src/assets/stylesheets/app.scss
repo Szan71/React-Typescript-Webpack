@@ -1,0 +1,103 @@
+body {
+    font-family: 'Roboto' !important;
+    font-style: normal;
+    box-sizing: border-box;
+    font-size: 16px !important;
+    color: black;
+}
+
+button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: inherit;
+}
+
+p {
+    margin-bottom: 0.5rem;
+}
+
+.card {
+    display: flex;
+    width: 380px;
+    margin: 10% auto;
+    height: auto;
+    position: relative;
+}
+
+.card-body {
+    width: 350px;
+}
+
+.movie-info:hover {
+    box-shadow: 0 4px 10px rgb(0 0 0 / 0.28);
+}
+
+.movie-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    /* padding-left: 2%; */
+}
+
+.movie-info button {
+    background-color: #1b54a8;
+    margin: 0 0 0 2%;
+}
+
+.movie-info h2 {
+    margin-top: 5%;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.genre {
+    color: #878787;
+}
+
+.director-name {
+    font-weight: 400;
+}
+
+.director-name:hover {
+    font-weight: 600;
+}
+
+.movie-poster {
+    width: 50%;
+}
+
+.movie-description {
+    width: 50%;
+    text-align: left;
+}
+
+
+/* MODAL
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.modal {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    /* padding: 1rem; */
+    background: var(--black);
+    cursor: pointer;
+    transition: all 0.35s ease-in;
+    width: 351px !important;
+    height: auto !important;
+    opacity: 1 !important;
+}
+
+.modal-content {
+    padding: 3%;
+    border-radius: 0%;
+}
+
+.close {
+    text-align: right;
+}
