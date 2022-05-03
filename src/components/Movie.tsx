@@ -110,7 +110,7 @@ export const Movie: FC<any> = () => {
         <div class="modal-content">
             <div class="close">&times;</div>
             <h2>${d.directorName}</h2>
-            <img src="../images/${d.directorImageURL}.jpg" width = "325px" height = "140px" alt="" />
+            <img src="images/${d.directorImageURL}.jpg" width = "325px" height = "140px" alt="" />
             <p>${d.directorBio}</p>
         </div>
         `;
@@ -126,12 +126,11 @@ export const Movie: FC<any> = () => {
     return (
         <div>
             <div className="card">
-                {/* <img src="../images/coco.jpg" alt="fdsdsf" /> */}
                 <div className="card-body">
                     {movies.map((d: data) => (
                         <div className="movie-info" onClick={() => openDetails(d)}>
                             <div className="movie-poster">
-                                <img src={`../images/${d.imageURL}.jpg`} alt="image" />
+                                <img src={`images/${d.imageURL}.jpg`} alt="image" />
                             </div>
                             <div className="movie-description">
                                 <h2>{d.movieTitle}</h2>
