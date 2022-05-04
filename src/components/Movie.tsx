@@ -20,7 +20,7 @@ export const Movie: FC<any> = () => {
     useEffect(() => {
         (async () => {
             try {
-                const result = await fetch('http://localhost:3000/movies');
+                const result = await fetch('https://my-json-server.typicode.com/Szan71/user-api/movies');
                 console.log(result);
                 const movie = await result.json();
                 setMovies(movie);
@@ -47,7 +47,7 @@ export const Movie: FC<any> = () => {
             button.onclick = async (e) => {
                 e.preventDefault();
                 e.stopPropagation();
-                await fetch(`http://localhost:3000/movies/${d.id}`, {
+                await fetch(`https://my-json-server.typicode.com/Szan71/user-api/movies/${d.id}`, {
                     method: 'PUT',
                     headers: {
                         'Content-Type': 'application/json'
