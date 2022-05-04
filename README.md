@@ -1,5 +1,4 @@
-![logo](https://user-images.githubusercontent.com/6104940/107880275-b04f2b80-6ed5-11eb-9852-de05425070cc.png)
-
+#Live Demo: https://szan71.github.io/React-Typescript-Webpack/
 # React TypeScript Webpack Starter
 
 A starter project for using React, TypeScript, SCSS and Webpack.
